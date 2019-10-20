@@ -6,5 +6,11 @@
             "email": "s3a632095@student.ncut.edu.tw"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "./src/Demo"
+        }
+    }
+
 }
